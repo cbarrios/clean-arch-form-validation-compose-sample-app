@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">CleanArchValidation</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="accept_terms">Accept Terms</string>
+    <string name="submit">Submit</string>
+    <string name="registration_success">Registration successful</string>
 </resources>

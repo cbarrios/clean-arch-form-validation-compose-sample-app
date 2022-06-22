@@ -1,4 +1,4 @@
-package com.lalosapps.cleanarchvalidation
+package com.lalosapps.cleanarchvalidation.ui.main
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity

@@ -1,12 +1,14 @@
 package com.lalosapps.cleanarchvalidation.ui.main
 
+import com.lalosapps.cleanarchvalidation.core.util.UiText
+
 data class RegistrationFormState(
     val email: String = "",
-    val emailError: String? = null,
+    val emailError: UiText? = null,
     val password: String = "",
-    val passwordError: String? = null,
+    val passwordError: UiText? = null,
     val repeatedPassword: String = "",
-    val repeatedPasswordError: String? = null,
+    val repeatedPasswordError: UiText? = null,
     val acceptedTerms: Boolean = false,
-    val termsError: String? = null
+    val termsError: UiText? = null
 )

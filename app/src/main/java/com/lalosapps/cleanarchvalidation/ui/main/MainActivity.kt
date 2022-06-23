@@ -80,7 +80,7 @@ fun MyApp() {
             )
             if (state.emailError != null) {
                 Text(
-                    text = state.emailError,
+                    text = state.emailError.asString(),
                     color = MaterialTheme.colors.error,
                     modifier = Modifier.align(Alignment.End)
                 )
@@ -104,7 +104,7 @@ fun MyApp() {
             )
             if (state.passwordError != null) {
                 Text(
-                    text = state.passwordError,
+                    text = state.passwordError.asString(),
                     color = MaterialTheme.colors.error,
                     modifier = Modifier.align(Alignment.End)
                 )
@@ -128,7 +128,7 @@ fun MyApp() {
             )
             if (state.repeatedPasswordError != null) {
                 Text(
-                    text = state.repeatedPasswordError,
+                    text = state.repeatedPasswordError.asString(),
                     color = MaterialTheme.colors.error,
                     modifier = Modifier.align(Alignment.End)
                 )
@@ -150,7 +150,7 @@ fun MyApp() {
             }
             if (state.termsError != null) {
                 Text(
-                    text = state.termsError,
+                    text = state.termsError.asString(),
                     color = MaterialTheme.colors.error
                 )
             }

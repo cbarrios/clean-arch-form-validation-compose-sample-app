@@ -1,5 +1,7 @@
 package com.lalosapps.cleanarchvalidation.domain.usecases
 
+import com.lalosapps.cleanarchvalidation.R
+import com.lalosapps.cleanarchvalidation.core.util.UiText
 import com.lalosapps.cleanarchvalidation.core.util.ValidationResult
 
 class ValidateRepeatedPassword {
@@ -8,7 +10,7 @@ class ValidateRepeatedPassword {
         if (password != repeatedPassword) {
             return ValidationResult(
                 successful = false,
-                errorMessage = "The passwords don't match"
+                errorMessage = UiText.StringResource(R.string.repeated_password_error)
             )
         }
         return ValidationResult(successful = true)

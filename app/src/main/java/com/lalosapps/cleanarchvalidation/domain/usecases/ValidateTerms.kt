@@ -1,5 +1,7 @@
 package com.lalosapps.cleanarchvalidation.domain.usecases
 
+import com.lalosapps.cleanarchvalidation.R
+import com.lalosapps.cleanarchvalidation.core.util.UiText
 import com.lalosapps.cleanarchvalidation.core.util.ValidationResult
 
 class ValidateTerms {
@@ -8,7 +10,7 @@ class ValidateTerms {
         if (!acceptedTerms) {
             return ValidationResult(
                 successful = false,
-                errorMessage = "Please accept the terms"
+                errorMessage = UiText.StringResource(R.string.accept_terms_error)
             )
         }
         return ValidationResult(successful = true)

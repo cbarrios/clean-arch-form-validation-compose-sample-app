@@ -6,4 +6,10 @@
     <string name="accept_terms">Accept Terms</string>
     <string name="submit">Submit</string>
     <string name="registration_success">Registration successful</string>
+    <string name="blank_email_error">The email can\'t be blank</string>
+    <string name="invalid_email_error">That\'s not a valid email</string>
+    <string name="min_password_error">The password must be at least %s characters long</string>
+    <string name="letters_and_digits_password_error">The password must contain both letters and digits</string>
+    <string name="repeated_password_error">The passwords don\'t match</string>
+    <string name="accept_terms_error">Please accept the terms</string>
 </resources>
